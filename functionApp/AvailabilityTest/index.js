@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 
 module.exports = async function (context, req) {
 
-    const url = "https://appinsightsmonitorlivetestweb.azurewebsites.net/";
+    const url = "https://cdn-testing-app-fzhwbvdkbyaqbuea.eastus-01.azurewebsites.net";
     context.log('JavaScript timer trigger function ran!', url);
     var isloaded = "loading...";
     var isTelemetryTracked = "loading...";
